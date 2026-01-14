@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CallGuard — Privacy Policy (Phase 1)</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; margin: 0; }
+    header { padding: 24px 16px; border-bottom: 1px solid rgba(127,127,127,.3); }
+    main { max-width: 920px; margin: 0 auto; padding: 16px; }
+    .lang { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+    .lang a { padding: 8px 12px; border: 1px solid rgba(127,127,127,.4); border-radius: 10px; text-decoration: none; }
+    section { margin: 22px 0; padding: 16px; border: 1px solid rgba(127,127,127,.25); border-radius: 14px; }
+    h1 { margin: 0 0 6px 0; font-size: 22px; }
+    h2 { margin: 0 0 10px 0; font-size: 18px; }
+    h3 { margin: 18px 0 8px 0; font-size: 16px; }
+    ul { margin: 8px 0 8px 18px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { opacity: .8; font-size: 14px; }
+    footer { padding: 20px 16px; border-top: 1px solid rgba(127,127,127,.3); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CallGuard — Privacy Policy</h1>
+    <div class="muted">Phase 1 (on-device only). Last updated: 2026-01-14.</div>
+    <div class="lang">
+      <a href="#it">Italiano</a>
+      <a href="#en">English</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="it">
+      <h2>Informativa Privacy — CallGuard (FASE 1, solo on-device)</h2>
+      <p class="muted">Questa pagina descrive ci che 8 attivo oggi nellapp. In FASE 1 non esistono backend/telemetria.</p>
+
+      <h3>1) Titolare del trattamento / Contatti</h3>
+      <p>Sviluppatore: <strong>AnuGodos</strong><br/>Email supporto/privacy: <strong>clanity184@gmail.com</strong></p>
+
+      <h3>2) Dati trattati nellapp (FASE 1)</h3>
+      <p>CallGuard tratta dati <strong>localmente sul dispositivo</strong> per fornire le funzionalit0 di filtro chiamate e gestione regole.</p>
+      <p>Categorie tipiche (salvate localmente):</p>
+      <ul>
+        <li><strong>Numeri di telefono e identificativi chiamante</strong> (per applicare le regole, ad esempio 2
+bnon in contatti2b).</li>
+        <li><strong>Eventi chiamata</strong> (es. data/ora, esito: consentita/bloccata, eventuale invio SMS di cortesia se attivo).</li>
+        <li><strong>Regole e preferenze</strong> (schedule, impostazioni guardia, preferenze SIM, template SMS, impostazioni app).</li>
+        <li><strong>Contatti (solo per verifica)</strong>: lapp pu2 leggere la rubrica per determinare se un numero 8 presente nei contatti.</li>
+      </ul>
+
+      <h3>3) Dove vanno i dati</h3>
+      <ul>
+        <li><strong>FASE 1: nessun backend / nessun invio dati verso un server</strong> da parte di CallGuard.</li>
+        <li><strong>FASE 1: nessuna telemetria</strong> (non 8 implementata/abilitata).</li>
+      </ul>
+
+      <h3>4) Permessi Android e perch9</h3>
+      <ul>
+        <li><strong>Call screening (ruolo di filtro chiamate)</strong>: consente allapp di valutare e decidere localmente se consentire o bloccare una chiamata in base alle regole definite dallutente. CallGuard <strong>non registra audio</strong> e non accede al contenuto delle conversazioni.</li>
+        <li><strong><code>READ_CONTACTS</code> (lettura contatti)</strong>: necessario per applicare regole come 2
+bblocca chiamate non in contatti2b.
+          <ul>
+            <li>Se neghi questo permesso, CallGuard pu2 continuare a funzionare, ma <strong>le regole basate sui contatti potrebbero non essere accurate</strong>.</li>
+          </ul>
+        </li>
+        <li><strong><code>SEND_SMS</code> (invio SMS)</strong> <em>(opzionale)</em>: usato solo se abiliti la funzione di <strong>SMS di cortesia</strong> (auto-reply) quando una chiamata viene bloccata.
+          <ul>
+            <li>CallGuard <strong>non legge n9 intercetta</strong> gli SMS in ingresso e non richiede permessi di lettura/ricezione SMS per funzionare.</li>
+          </ul>
+        </li>
+        <li><strong><code>POST_NOTIFICATIONS</code></strong> <em>(opzionale)</em>: per notifiche locali sullo stato o sugli esiti (se presenti e abilitate).</li>
+      </ul>
+
+      <h3>5) Base giuridica</h3>
+      <p><strong>Esecuzione del servizio richiesto dallutente</strong>: filtro chiamate, regole, registrazione eventi locali e (se attivo) SMS di cortesia.</p>
+
+      <h3>6) Conservazione e cancellazione (FASE 1)</h3>
+      <ul>
+        <li>I dati sono conservati <strong>localmente</strong> sul dispositivo.</li>
+        <li>Puoi cancellare i dati dallapp (se la UI lo consente) oppure tramite Android (es. <strong>Cancella dati</strong> / disinstallazione).</li>
+      </ul>
+
+      <h3>7) Condivisione con terze parti</h3>
+      <p><strong>FASE 1:</strong> CallGuard non condivide dati con terze parti.</p>
+
+      <h3>8) Sicurezza</h3>
+      <p>CallGuard minimizza i dati trattati e opera principalmente <strong>on-device</strong>.</p>
+
+      <h3>9) Modifiche a questa informativa</h3>
+      <p>Potremmo aggiornare questa informativa in futuro (ad esempio in caso di introduzione di telemetria opt-in o servizi cloud). In tal caso, aggiorneremo la data e pubblicheremo la versione aggiornata.</p>
+    </section>
+
+    <section id="en">
+      <h2>Privacy Policy — CallGuard (PHASE 1, on-device only)</h2>
+      <p class="muted">This page describes what is enabled today in the app. In PHASE 1 there is no backend/telemetry.</p>
+
+      <h3>1) Data Controller / Contact</h3>
+      <p>Developer: <strong>AnuGodos</strong><br/>Support/Privacy email: <strong>clanity184@gmail.com</strong></p>
+
+      <h3>2) Data processed in the app (PHASE 1)</h3>
+      <p>CallGuard processes data <strong>locally on the device</strong> to provide call screening and rule management.</p>
+      <p>Typical categories stored locally:</p>
+      <ul>
+        <li><strong>Phone numbers / caller identifiers</strong> (to apply rules, e.g. 2
+bnot in contacts2b).</li>
+        <li><strong>Call events</strong> (e.g. date/time, outcome: allowed/blocked, optional courtesy SMS sent if enabled).</li>
+        <li><strong>Rules and preferences</strong> (schedules, guard settings, SIM preferences, SMS templates, app settings).</li>
+        <li><strong>Contacts (lookup only)</strong>: the app may read the address book to determine whether a number is in contacts.</li>
+      </ul>
+
+      <h3>3) Where data goes</h3>
+      <ul>
+        <li><strong>PHASE 1: no backend / no server upload</strong> performed by CallGuard.</li>
+        <li><strong>PHASE 1: no telemetry</strong> (not implemented/enabled).</li>
+      </ul>
+
+      <h3>4) Android permissions and why</h3>
+      <ul>
+        <li><strong>Call screening role</strong>: allows the app to decide locally whether to allow or block an incoming call based on user-defined rules. CallGuard <strong>does not record call audio</strong> and does not access voice content.</li>
+        <li><strong><code>READ_CONTACTS</code></strong>: required to apply rules such as 2
+bblock calls not in contacts2b.
+          <ul>
+            <li>If you deny this permission, CallGuard can still run, but <strong>contact-based rules may not work accurately</strong>.</li>
+          </ul>
+        </li>
+        <li><strong><code>SEND_SMS</code></strong> <em>(optional)</em>: used only if you enable <strong>courtesy SMS auto-replies</strong> when a call is blocked.
+          <ul>
+            <li>CallGuard <strong>does not read or intercept</strong> incoming SMS messages and does not require SMS read/receive permissions to function.</li>
+          </ul>
+        </li>
+        <li><strong><code>POST_NOTIFICATIONS</code></strong> <em>(optional)</em>: for local notifications about status/outcomes (if present and enabled).</li>
+      </ul>
+
+      <h3>5) Legal basis</h3>
+      <p><strong>Providing the service requested by the user</strong>: call screening, rules, local event logging, and (if enabled) courtesy SMS.</p>
+
+      <h3>6) Retention and deletion (PHASE 1)</h3>
+      <ul>
+        <li>Data is stored <strong>locally</strong> on the device.</li>
+        <li>You can delete data from within the app (when available) or via Android system options (e.g., <strong>Clear storage</strong> / uninstall).</li>
+      </ul>
+
+      <h3>7) Sharing with third parties</h3>
+      <p><strong>PHASE 1:</strong> CallGuard does not share data with third parties.</p>
+
+      <h3>8) Security</h3>
+      <p>CallGuard minimises data processing and operates primarily <strong>on-device</strong>.</p>
+
+      <h3>9) Changes to this policy</h3>
+      <p>We may update this policy in the future (for example, if opt-in telemetry or cloud services are introduced). In that case, we will update the date and publish the updated information.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="muted">This page is intended to be hosted publicly for Google Play compliance.</div>
+  </footer>
+</body>
+</html>
