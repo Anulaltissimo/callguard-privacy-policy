@@ -32,54 +32,53 @@
   </header>
 
   <main>
-    <section id="it">
+    <section id="it" lang="it">
       <h2>Informativa Privacy — CallGuard (FASE 1, solo on-device)</h2>
-      <p class="muted">Questa pagina descrive ci che 8 attivo oggi nellapp. In FASE 1 non esistono backend/telemetria.</p>
+      <p class="muted">Questa pagina descrive ciò che è attivo oggi nell’app. In FASE 1 non esistono backend/telemetria.</p>
 
       <h3>1) Titolare del trattamento / Contatti</h3>
       <p>Sviluppatore: <strong>AnuGodos</strong><br/>Email supporto/privacy: <strong>clanity184@gmail.com</strong></p>
 
-      <h3>2) Dati trattati nellapp (FASE 1)</h3>
-      <p>CallGuard tratta dati <strong>localmente sul dispositivo</strong> per fornire le funzionalit0 di filtro chiamate e gestione regole.</p>
+      <h3>2) Dati trattati nell’app (FASE 1)</h3>
+      <p>CallGuard tratta dati <strong>localmente sul dispositivo</strong> per fornire le funzionalità di filtro chiamate e gestione regole.</p>
       <p>Categorie tipiche (salvate localmente):</p>
       <ul>
-        <li><strong>Numeri di telefono e identificativi chiamante</strong> (per applicare le regole, ad esempio 2
-bnon in contatti2b).</li>
+        <li><strong>Numeri di telefono e identificativi chiamante</strong> (per applicare le regole, ad esempio “non in contatti”).</li>
         <li><strong>Eventi chiamata</strong> (es. data/ora, esito: consentita/bloccata, eventuale invio SMS di cortesia se attivo).</li>
         <li><strong>Regole e preferenze</strong> (schedule, impostazioni guardia, preferenze SIM, template SMS, impostazioni app).</li>
-        <li><strong>Contatti (solo per verifica)</strong>: lapp pu2 leggere la rubrica per determinare se un numero 8 presente nei contatti.</li>
+        <li><strong>Contatti (solo per verifica)</strong>: l’app può leggere la rubrica per determinare se un numero è presente nei contatti.</li>
       </ul>
 
       <h3>3) Dove vanno i dati</h3>
       <ul>
         <li><strong>FASE 1: nessun backend / nessun invio dati verso un server</strong> da parte di CallGuard.</li>
-        <li><strong>FASE 1: nessuna telemetria</strong> (non 8 implementata/abilitata).</li>
+        <li><strong>FASE 1: nessuna telemetria</strong> (non è implementata/abilitata).</li>
       </ul>
 
-      <h3>4) Permessi Android e perch9</h3>
+      <h3>4) Permessi Android e perché</h3>
+      <p>CallGuard richiede alcuni permessi/ruoli per funzionare:</p>
       <ul>
-        <li><strong>Call screening (ruolo di filtro chiamate)</strong>: consente allapp di valutare e decidere localmente se consentire o bloccare una chiamata in base alle regole definite dallutente. CallGuard <strong>non registra audio</strong> e non accede al contenuto delle conversazioni.</li>
-        <li><strong><code>READ_CONTACTS</code> (lettura contatti)</strong>: necessario per applicare regole come 2
-bblocca chiamate non in contatti2b.
+        <li><strong>Call screening (ruolo di filtro chiamate)</strong>: consente all’app di valutare e decidere localmente se consentire o bloccare una chiamata in base alle regole definite dall’utente. CallGuard <strong>non registra audio</strong> e non accede al contenuto delle conversazioni.</li>
+        <li><strong><code>READ_CONTACTS</code> (lettura contatti)</strong>: necessario per applicare regole come “blocca chiamate non in contatti”, confrontando localmente il numero chiamante con la rubrica.
           <ul>
-            <li>Se neghi questo permesso, CallGuard pu2 continuare a funzionare, ma <strong>le regole basate sui contatti potrebbero non essere accurate</strong>.</li>
+            <li>Se neghi questo permesso, CallGuard può continuare a funzionare, ma <strong>le regole basate sui contatti potrebbero non essere accurate</strong>.</li>
           </ul>
         </li>
-        <li><strong><code>SEND_SMS</code> (invio SMS)</strong> <em>(opzionale)</em>: usato solo se abiliti la funzione di <strong>SMS di cortesia</strong> (auto-reply) quando una chiamata viene bloccata.
+        <li><strong><code>SEND_SMS</code> (invio SMS)</strong> <em>(opzionale)</em>: usato solo se abiliti la funzione di <strong>SMS di cortesia</strong> (auto-reply) quando una chiamata viene bloccata. Puoi disattivare questa funzione in qualsiasi momento.
           <ul>
-            <li>CallGuard <strong>non legge n9 intercetta</strong> gli SMS in ingresso e non richiede permessi di lettura/ricezione SMS per funzionare.</li>
+            <li>CallGuard <strong>non legge né intercetta</strong> gli SMS in ingresso e non richiede permessi di lettura/ricezione SMS per funzionare.</li>
           </ul>
         </li>
         <li><strong><code>POST_NOTIFICATIONS</code></strong> <em>(opzionale)</em>: per notifiche locali sullo stato o sugli esiti (se presenti e abilitate).</li>
       </ul>
 
       <h3>5) Base giuridica</h3>
-      <p><strong>Esecuzione del servizio richiesto dallutente</strong>: filtro chiamate, regole, registrazione eventi locali e (se attivo) SMS di cortesia.</p>
+      <p><strong>Esecuzione del servizio richiesto dall’utente</strong>: filtro chiamate, regole, registrazione eventi locali e (se attivo) SMS di cortesia.</p>
 
       <h3>6) Conservazione e cancellazione (FASE 1)</h3>
       <ul>
         <li>I dati sono conservati <strong>localmente</strong> sul dispositivo.</li>
-        <li>Puoi cancellare i dati dallapp (se la UI lo consente) oppure tramite Android (es. <strong>Cancella dati</strong> / disinstallazione).</li>
+        <li>Puoi cancellare i dati rimuovendo i contenuti dall’app (se la UI lo consente) oppure usando le opzioni di sistema Android (es. <strong>Cancella dati</strong> / disinstallazione).</li>
       </ul>
 
       <h3>7) Condivisione con terze parti</h3>
@@ -92,7 +91,7 @@ bblocca chiamate non in contatti2b.
       <p>Potremmo aggiornare questa informativa in futuro (ad esempio in caso di introduzione di telemetria opt-in o servizi cloud). In tal caso, aggiorneremo la data e pubblicheremo la versione aggiornata.</p>
     </section>
 
-    <section id="en">
+    <section id="en" lang="en">
       <h2>Privacy Policy — CallGuard (PHASE 1, on-device only)</h2>
       <p class="muted">This page describes what is enabled today in the app. In PHASE 1 there is no backend/telemetry.</p>
 
@@ -103,9 +102,8 @@ bblocca chiamate non in contatti2b.
       <p>CallGuard processes data <strong>locally on the device</strong> to provide call screening and rule management.</p>
       <p>Typical categories stored locally:</p>
       <ul>
-        <li><strong>Phone numbers / caller identifiers</strong> (to apply rules, e.g. 2
-bnot in contacts2b).</li>
-        <li><strong>Call events</strong> (e.g. date/time, outcome: allowed/blocked, optional courtesy SMS sent if enabled).</li>
+        <li><strong>Phone numbers / caller identifiers</strong> (to apply rules, e.g., “not in contacts”).</li>
+        <li><strong>Call events</strong> (e.g., date/time, outcome: allowed/blocked, optional courtesy SMS sent if enabled).</li>
         <li><strong>Rules and preferences</strong> (schedules, guard settings, SIM preferences, SMS templates, app settings).</li>
         <li><strong>Contacts (lookup only)</strong>: the app may read the address book to determine whether a number is in contacts.</li>
       </ul>
@@ -117,15 +115,15 @@ bnot in contacts2b).</li>
       </ul>
 
       <h3>4) Android permissions and why</h3>
+      <p>CallGuard requires certain permissions/roles to work:</p>
       <ul>
         <li><strong>Call screening role</strong>: allows the app to decide locally whether to allow or block an incoming call based on user-defined rules. CallGuard <strong>does not record call audio</strong> and does not access voice content.</li>
-        <li><strong><code>READ_CONTACTS</code></strong>: required to apply rules such as 2
-bblock calls not in contacts2b.
+        <li><strong><code>READ_CONTACTS</code></strong>: required to apply rules such as “block calls not in contacts” by matching the incoming number against the local address book.
           <ul>
             <li>If you deny this permission, CallGuard can still run, but <strong>contact-based rules may not work accurately</strong>.</li>
           </ul>
         </li>
-        <li><strong><code>SEND_SMS</code></strong> <em>(optional)</em>: used only if you enable <strong>courtesy SMS auto-replies</strong> when a call is blocked.
+        <li><strong><code>SEND_SMS</code></strong> <em>(optional)</em>: used only if you enable <strong>courtesy SMS auto-replies</strong> when a call is blocked. You can disable this feature at any time.
           <ul>
             <li>CallGuard <strong>does not read or intercept</strong> incoming SMS messages and does not require SMS read/receive permissions to function.</li>
           </ul>
@@ -158,3 +156,5 @@ bblock calls not in contacts2b.
   </footer>
 </body>
 </html>
+ page is intended to be hosted publicly for Google Play compliance.</div>
+
